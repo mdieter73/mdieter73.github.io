@@ -1,12 +1,33 @@
-/* This is the heading color */
-h1 {color: #333399;}      /* RoyalBlue */
-       
+/* Heading properties */
+h1 {
+    color: #000066;        /* DarkBlue */
+    font-family: serif;
+    font-size: 28pt;
+    float:right; 
+}
+ 
+h3 {color: #000066;        /* DarkBlue */
+    font-size:14pt;}
+
+h4 {font-size: 16pt;
+    clear:right;}
+
+
+/* Paragraph elements */
+p {color: #006666;        /* Teal */
+   font-size:14pt;
+} 
+
+
 /* Footer properties */
 footer {font-size: 8pt;}
 
 
+/* List element properties */
+#current {color: #0033cc;
+} 
 
-
+main li {color:#0099cc;}
 
 
 /* Link properties */
@@ -17,4 +38,4 @@ a:visited {color:#99cccc;} /* lightblue */
 a:active {color: #cc9900;} /* orange */
 
 a {text-decoration: none;
-font-size: 10pt;}
+   font-size: 10pt;}
