@@ -1,26 +1,81 @@
+/* HTML properties */
+html {
+    background-color: darkslategray;
+    }
+
 /* Heading properties */
 h1 {
-    color: #000066;        /* DarkBlue */
+    color: #ffffff;        /* white */
     font-family: serif;
     font-size: 28pt;
-    float:right; 
+    float: right;
+    background-color: darkslategray;
+    width: 485px;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 40px 380px 3px 3px;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    letter-spacing: 11px;
+    text-shadow: 2px 2px black;
+    
 }
  
 h3 {color: #000066;        /* DarkBlue */
-    font-size:14pt;}
+    font-size:14pt;
+}
 
-h4 {font-size: 16pt;
-    clear:right;}
+h4 {font-size: 14pt;
+    float:right;
+    color: darkslateblue;
+    position: absolute;
+    left: 310px;
+    top: 140px;
+    margin: 10px;
+    letter-spacing: 2px
+}
+
+/* Image properties */
+img {border: 4px solid darkslateblue; 
+    border-radius: 15px;
+    position: relative;
+    
+    }
+
+
+/* Body properties */
+body {
+    height: 1000px;
+    width: 1100px;
+    background-color: lightgray;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+    }
+
 
 
 /* Paragraph elements */
 p {color: #006666;        /* Teal */
    font-size:14pt;
+    clear:left;
+    border-top-style: solid;
+    border-top-color: darkslategray;
+    border-top-width: 3px;
+    padding: 15px;
 } 
 
 
 /* Footer properties */
-footer {font-size: 8pt;}
+footer {font-size: 8pt;
+        border-top-style: solid;
+        border-top-color: darkslategray;
+        border-top-width: 3px;
+        text-align: center;
+}
+
 
 
 /* List element properties */
