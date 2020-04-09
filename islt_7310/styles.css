@@ -1,4 +1,20 @@
-/*This is the heading color*/
-h1 {color: #333399;}      /*RoyalBlue*/
+/* This is the heading color */
+h1 {color: #333399;}      /* RoyalBlue */
        
+/* Footer properties */
+footer {font-size: 8pt;}
 
+
+
+
+
+
+/* Link properties */
+a:link {color:#009966;} /* bluegreen */
+a:hover {color:#00cc33;} /* green */
+a:focus {color:#990000;} /* red */
+a:visited {color:#99cccc;} /* lightblue */
+a:active {color: #cc9900;} /* orange */
+
+a {text-decoration: none;
+font-size: 10pt;}
