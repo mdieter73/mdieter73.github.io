@@ -8,7 +8,7 @@ Use:  Welcome page to Matt Dieter's resume
 Author:  Matt Dieter
 School/Term:  University of Missouri, Spring 2020
 Developed: March 31, 2020
-Tested:  April 10, 2020; Passed on Firefox and Chrome browsers.
+Tested:  April 18, 2020; Passed on Firefox and Chrome browsers.
 ******************************************************************************
 -->
     
@@ -18,28 +18,34 @@ Tested:  April 10, 2020; Passed on Firefox and Chrome browsers.
                 text-align: center;}
     
     h1 {float: right;
-        position: relative;
-        margin-left: 100px;}
+        
+        margin: 40px 380px 3px 3px;}
    
     h4 {float:right;
         position: absolute;
         left: 310px;
-        top: 140px;
+        top: 240px;
         margin: 10px;}
     
     h3 {margin-top: 6px;}
     
-    p {clear:left;
+    p {clear:right;
     border-top-style: solid;
     border-top-color: darkslategray;
     border-top-width: 3px;
     padding: 15px;
-    line-height: 1.6;}
-     
+    }
+
+    .year {float:right;
+           margin-right: 450px;}
+    
+    #islt {float:right;
+            margin-right:256px;}
 
 </style>
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="nav.css">
 
 
 
@@ -48,9 +54,27 @@ Tested:  April 10, 2020; Passed on Firefox and Chrome browsers.
 </head>
 
 <body>
+   
+<nav id="nav_menu">
+    <ul>
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="resume.html">Resume</a></li>
+        <li> <a href="accomplishments.html">Accomplishments</a></li>
+        <li> <a href="#experience.html">Experience</a>
+                <ul>
+                    <li id="first"><a href="#">Goal 1</a></li>
+                    <li id="second"><a href="#">Goal 2</a></li>
+                    <li id="third"><a href="#">Goal 3</a></li>
+                </ul>
+        <li> <a href="reflection.html">Personal Reflection</a></li>
+        <li> <a href="#contact.html"></a>Contact</li>
+    </ul>   
+</nav>
+
     <h1>Matthew R. Dieter</h1>
     <img src="images/matt_dieter_instructional_designer.jpg" alt="Picture of Matt Dieter" height="200" width="150">
     <h4><em>Educator and instructional designer with a passion for creating<br>materials and environments that help learners achieve success</em></h4>
+
 
 <main>
     <p>I am an experienced educator who has served as a classroom teacher, school administrator and an undergraduate professor. As the instructional leader at my school, I have worked collaboratively with staff members to help them design and assess instruction for their students.  I have designed and delivered multiple professional learning opportunities for the faculty members I supervise in using technology following the SAMR model to enhance their instructional practices.  I am experienced in using both Canvas and Moodle as a learning management system have taught my students using both face-to-face and online class sessions.  I have experience using a variety of software for presenting and creating instructional materials.</p>
@@ -59,15 +83,15 @@ Tested:  April 10, 2020; Passed on Firefox and Chrome browsers.
        
     <h3>Education</h3>
         <ul>
-            <li>Master of Science in Learning Technologies and Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anticipated completion 2020</li>
-            <li>Master of Education Administration&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2003</li>
-            <li>Bachelor of Science in Education&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1995</li>
+            <li>Master of Science in Learning Technologies and Design<span id="islt">Anticipated completion 2020</span></li>
+            <li>Master of Education Administration<span class="year">2003</span></li>
+            <li>Bachelor of Science in Education<span class="year">1995</span></li>
         </ul>
 <br>
     <h3>Certifications</h3>
         <ul>
-            <li>Google Certified Educator Level 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020</li>
-            <li>Graduate Certificate in Online Education&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019</li>
+            <li>Google Certified Educator Level 1<span class="year">2020</span></li>
+            <li>Graduate Certificate in Online Education<span class="year">2019</span></li>
         </ul>
 
 <br>

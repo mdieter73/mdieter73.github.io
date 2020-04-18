@@ -9,10 +9,9 @@ h1 {
     font-family: arial, serif;
     font-size: 28pt;
     background-color: darkslategray;
-    
     padding: 10px;
     border: 3px solid black;
-    margin: 40px 380px 3px 3px;
+    
     border-radius: 15px 15px 15px 15px;
     letter-spacing: 11px;
     text-shadow: 2px 2px black;
@@ -51,8 +50,8 @@ body {height: auto;
 
 /* Paragraph elements */
 p {color: #006666;        /* Teal */
-   font-size:14pt;                                                   
-} 
+   font-size:14pt;
+    line-height: 1.6;} 
 
 
 /* Footer properties */
@@ -80,6 +79,6 @@ a:link {color:#009966;} /* bluegreen */
 a:hover {color:#00cc33;} /* green */
 a:focus {color:#990000;} /* red */
 a:visited {color:#99cccc;} /* lightblue */
-a:active {color: #cc9900;} /* orange */
+a:active {color: cadetblue;} 
 
 a {text-decoration: none;}
