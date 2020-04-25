@@ -2,17 +2,18 @@
 
 #nav_menu ul li {
     margin:0px;
-    padding: 5px;
+    
     
     display: inline-block;
     line-height: 30px;
     background-color: #000066;
-    font-family: "arial narrow";
+    font-family: "candara";
     font-weight: bold;
-    font-size: 14pt;
+    font-size: 12pt;
     color: white;
     width:160px;
-    text-align: center;}
+    text-align: center;
+    text-transform: uppercase;}
 
 
 nav>ul li {                                    /*nav item with dropdown*/
@@ -31,14 +32,17 @@ nav ul li ul li {
             display: block;
             line-height: 30px;                /*dropdown menu properties*/
             padding:10px;
-            left:0px;}
+            left:-40px;}
 
-nav ul li ul li#third {
+nav ul li ul li#first {width: 140px;}
+
+nav ul li ul li#second {width: 140px;}
+
+nav ul li ul li#third {width: 140px;
         border-radius: 0px 0px 8px 8px;}
 
 
-
-
+nav a {display: block;}
 
 
 nav {
@@ -47,7 +51,64 @@ nav {
     border-radius: 8px 8px 8px 8px;}
 
 #nav_menu a:link {color:white;}
-#nav_menu a:hover {text-decoration: underline;} 
+#nav_menu a:hover {background-color: #02518a;} 
 #nav_menu a:active {color:cadetblue;}
 #nav_menu a:focus {color:#990000;} /* red */
-#nav_menu a:visited {color:#99cccc;} /* lightblue */
+#nav_menu a:visited {color:white;} 
+
+
+ #hamburger {display: none;}
+
+
+@media only screen and (max-width: 640px) {                /*Media queries*/
+    nav {
+		position: relative;
+        height: 100px;
+        display: block;
+        z-index: 100;
+        width: 30%;}
+    
+	#hamburger {
+		display: inline-block;
+        padding-left: 55px;
+        width: 5em;
+        float: left;
+        font-size: 4em;
+        color:white;}
+        
+    nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 0px 0px 0px 0px;
+        top: 10px;}
+    
+    nav:hover ul {
+		display: block;}
+    
+    nav li {
+		text-align: center;
+		padding: 0;
+		margin: 0;}
+  
+    #nav_menu ul li {
+        font-size: 24pt;
+        width:500px;
+        height: 75px;}   
+
+    
+    #mobiledrop {display:none;}    
+
+    
+    .container{
+      margin: 55px;
+      padding: 20px;}
+    
+    #antic {font-size: 75%;}
+    #mslt {font-size: 75%;}
+    
+    
+    
+    
+    
+    }
+
