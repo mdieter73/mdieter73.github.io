@@ -3,7 +3,7 @@ html {
     background-color: darkslategray;
     }
 
-@font-face {font-family: "Oswald", sans-serif;
+@font-face {font-family: "Oswald";
             src: url("Oswald-Bold.ttf");}
 
 
@@ -11,7 +11,7 @@ html {
 /* Heading properties */
 h1 {
     color: #ffffff;        /* white */
-    font-family: oswald, serif;
+    font-family: "oswald", sans-serif;
     font-size: 28pt;
     background-color: darkslategray;
     padding: 10px;
