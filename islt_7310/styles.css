@@ -112,7 +112,7 @@ footer {font-size: 8pt;
 
 
 /* Link properties */
-a:link {color:#009966;} /* bluegreen */
+a:link {color:#000066;} /* darkblue */
 a:hover {color:#00cc33;} /* green */
 a:focus {color:#990000;} /* red */
 a:visited {color:#99cccc;} /* lightblue */
