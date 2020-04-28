@@ -3,19 +3,15 @@ html {
     background-color: darkslategray;
     }
 
-@font-face {font-family: 'Oswald', sans-serif;
-            src: url("oswald.ttf")
-}
-
-
-
+@font-face {font-family: "Assistant-Bold", sans-serif;
+            src:url ("Assistant-bold.ttf");}
 
 
 
 /* Heading properties */
 h1 {
     color: #ffffff;        /* white */
-    font-family: 'Oswald', sans-serif;
+    font-family: "assistant-bold", serif;
     font-size: 28pt;
     background-color: darkslategray;
     padding: 10px;
