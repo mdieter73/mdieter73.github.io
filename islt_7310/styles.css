@@ -62,6 +62,13 @@ footer {font-size: 8pt;
         text-align: center;
         padding-top: 5px;}
 
+     .footerbkg {background-image: url(images/light-blu640.jpg);
+     width: 1100px;
+     height: 20px;
+     background-size: cover;}
+
+
+
 
 
 /* List element properties */
@@ -94,7 +101,13 @@ footer {font-size: 8pt;
     blockquote {font-size: 90%;}
     
     #columns {column-count: 1;}
+  
     
+/* Resume Video*/  
+    #video {
+    width:100%;
+    height:auto;}
+   
 }
 
 
