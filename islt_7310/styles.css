@@ -3,15 +3,16 @@ html {
     background-color: darkslategray;
     }
 
-@font-face {font-family: "Assistant-Bold", sans-serif;
-            src:url ("Assistant-bold.ttf");}
+@font-face p.531
+
+font-family: 'Oswald', sans-serif;
 
 
 
 /* Heading properties */
 h1 {
     color: #ffffff;        /* white */
-    font-family: "assistant-bold", serif;
+    font-family: arial, serif;
     font-size: 28pt;
     background-color: darkslategray;
     padding: 10px;
