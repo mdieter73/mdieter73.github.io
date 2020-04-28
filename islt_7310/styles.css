@@ -3,10 +3,19 @@ html {
     background-color: darkslategray;
     }
 
+@font-face {font-family: 'Oswald', sans-serif;
+            src: url("oswald.ttf")
+}
+
+
+
+
+
+
 /* Heading properties */
 h1 {
     color: #ffffff;        /* white */
-    font-family: arial, serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 28pt;
     background-color: darkslategray;
     padding: 10px;
@@ -62,7 +71,7 @@ footer {font-size: 8pt;
         text-align: center;
         padding-top: 5px;}
 
-     .footerbkg {background-image: url(images/light-blu640.jpg);
+     .footerbkg {background-image: url(images/light-blu6402.jpg);
      width: 1100px;
      height: 20px;
      background-size: cover;}
