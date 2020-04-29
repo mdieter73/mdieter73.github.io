@@ -184,7 +184,7 @@ footer {font-size: 12pt;
 a:link {color:#000066;} /* darkblue */
 a:hover {color:#990000;} 
 a:focus {color:#990000;} /* red */
-a:visited {color:#99cccc;} /* lightblue */
+a:visited {color:cadetblue;} /* lightblue */
 a:active {color: cadetblue;} 
 
 a {text-decoration: none;}
