@@ -82,7 +82,7 @@ nav {
 		padding: 0px 0px 0px 0px;
         top: 10px;}
     
-    nav:hover ul {
+    nav:hover ul {margin-top: 75px;
 		display: block;}
     
     nav li {
