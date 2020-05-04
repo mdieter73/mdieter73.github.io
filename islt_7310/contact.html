@@ -39,9 +39,8 @@ Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
       align-items: center;}
     
     
-    #fname {width: 400px; height: 20px; font-family:"arial";}
-    #lname {width: 400px; height: 20px; font-family: "arial"}
-    #email {width: 400px; height: 20px; font-family: "arial"}
+    
+    .fields {width: 400px; height: 20px; font-family:"arial";}
     #message {width: 400px;height: 75px; resize:vertical; font-family: "arial"}
     
     
@@ -97,21 +96,21 @@ Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
   
 <main>
     
- <h3>Contact Me</h3>
+ 
    
 <div class="container">
     <form action= "mailto:mrd26w@mail.missouri.edu?Subject=Professional%20Website%20Contact" method="post" enctype="text/plain">
         
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" autofocus placeholder="First Name" required> 
+    <input type="text" class="fields" name="firstname" autofocus placeholder="First Name" required> 
 <br>
 <br>
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+    <input type="text" class="fields" name="lastname" placeholder="Last Name" required>
 <br>
  <br>
     <label for="email">Last Name</label>
-    <input type="email" id="email" name="email" placeholder="Email" required>
+    <input type="email" class="fields" name="email" placeholder="Email" required>
 <br>
 <br>  
    <label for="message">Message</label>
