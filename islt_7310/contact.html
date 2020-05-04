@@ -39,11 +39,10 @@ Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
       align-items: center;}
     
     
-    #fname {width: 400px; height: 20px;}
-    #lname {width: 400px; height: 20px;}
-    #email {width: 400px; height: 20px;}
-    #subj {width: 400px; height: 20px;}
-    #subject {width: 400px;height: 75px;}
+    #fname {width: 400px; height: 20px; font-family:"arial";}
+    #lname {width: 400px; height: 20px; font-family: "arial"}
+    #email {width: 400px; height: 20px; font-family: "arial"}
+    #message {width: 400px;height: 75px; resize:vertical; font-family: "arial"}
     
     
     #button {background-color: cadetblue;
@@ -77,7 +76,7 @@ Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
     <ul>
         <li> <a href="index.html">Home</a></li>
         <li> <a href="resume.html">Resume</a></li>
-        <li> <a href="accomplishments.html">Accomplishments</a></li>
+        <li> <a href="accomplishments.html">Education</a></li>
         <li> <a href="experience.html">Experience</a>
                 <ul id="mobiledrop">
                     <li id="first"><a href="experience.html#adjunct">Professor</a></li>
@@ -101,29 +100,24 @@ Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
  <h3>Contact Me</h3>
    
 <div class="container">
-    <form action=>
+    <form action= "mailto:mrd26w@mail.missouri.edu" subject= "Professional Website Contact" method="post" enctype="text/plain">
 
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname">
+    <input type="text" id="fname" name="firstname" autofocus placeholder="First Name" required> 
 <br>
 <br>
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname">
+    <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+<br>
+ <br>
+    <label for="email">Last Name</label>
+    <input type="email" id="email" name="email" placeholder="Email" required>
+<br>
+<br>  
+   <label for="message">Message</label>
+   <textarea type="text" id="message" name="message" placeholder="Your Message" required></textarea>    
 <br>
 <br>   
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email">
-<br>
- <br>  
-    <label for="subject">Subject</label>
-    <input type="text" id="subj" name="subject">
-<br>
- <br> 
-   <label for="subject">Message</label>
-    <textarea id="subject" name="subject"></textarea>
-<br>
-<br>   
-    
     <input type="submit" id="button" value="Submit">
     
   </form>
