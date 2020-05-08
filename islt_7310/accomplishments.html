@@ -14,7 +14,7 @@ Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
     
     <meta charset="UTF-8">
 
-<title>Matthew R. Dieter Professional Accomplishments</title>
+<title>Matthew R. Dieter Education</title>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="nav.css">
@@ -28,23 +28,28 @@ Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
     h3 {margin-bottom: 5px;
     margin-top: 5px;}
     
+    .tablepic {width: 32px;
+                border-radius: 0px;}
     
-    .alignleft {
-	float: left;}
-    
-    .alignright {
-	float: right;}
-
-    .college {margin: 6px;}
-    .emphasis {margin: 6px;}
-    
-    ul{list-style-type: circle;}
+    .tablepicm {width: 16px;
+                border-radius: 0px;}
     
     #cert {background-color: #c0c0c0; 
            padding: 25px;}
     #educ {padding: 0px 25px;}
     
+    .course {padding-left: 15px;
+             padding-bottom: 0px;
+            white-space: nowrap;}
     
+    .grad {padding-left: 35px;}
+    .major {padding-bottom: 25px;}
+    
+
+    .diploma {font-weight: 700;
+    white-space: nowrap;}
+    
+   
 </style>
 
 </head>
@@ -56,7 +61,7 @@ Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
     <ul>
         <li> <a href="index.html">Home</a></li>
         <li> <a href="resume.html">Resume</a></li>
-        <li> <a href="accomplishments.html">Accomplishments</a></li>
+        <li> <a href="accomplishments.html">Education</a></li>
         <li> <a href="experience.html">Experience</a>
                 <ul id="mobiledrop">
                     <li id="first"><a href="experience.html#adjunct">Professor</a></li>
@@ -69,90 +74,211 @@ Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
 </nav>  
 
 <header>
-    <h1>Professional Accomplishments</h1>
+    <h1>Education</h1>
 </header> 
 
 
 <hr> 
 
 <main>
-
-    <h3>Education</h3>      
+<figure>
+<figcaption>Education Summary</figcaption>
+ <table>
+  
+   <thead>
+        <tr>
+            <th id="hdr_degree">Degree</th>
+            <th id="hdr_school">School</th>
+            <th id="hrd_year">Year Completed</th>  
+        </tr>
+    </thead>
+    <tbody> 
+         <tr>
+             <td class="diploma1">MS in Instructional in Learning Technologies and Design</td>
+             <td headers="hdr_school"><img src="images/mizzou.png" alt="mizzoulogo" class="tablepicm"> University of Missouri</td>
+             <td headers="hdr_school">December 2020</td>   
+         </tr>
+         <tr>
+             <td class="diploma1">Master of Education</td>
+             <td headers="hdr_school"><img src="images/wc-w.png" alt="westminsterlogo" class="tablepic"> Westminster College</td>
+             <td headers="hdr_school">2003</td>   
+         </tr>
+         <tr>
+             <td class="diploma1">Bachelor of Science in Education</td>
+             <td headers="hdr_school"><img src="images/IUP_logo.png" alt="iuplogo" class="tablepic"> Indiana University of Pennsylvania</td>
+             <td headers="hdr_school">1995</td>
+         </tr> 
+    </tbody>
+    <tfoot></tfoot>
+ </table>
+</figure>
+    
 <br>
- <section id="educ">
-     
-<div id="textbox">
-      <p class="alignleft"><strong>Master of Science in Learning Technologies and Design</strong></p>
-      <p class="alignright"><span style="color:black" id="antic">Anticipated completion December 2020</span></p>
-</div>
-    <div style="clear: both;"></div>
-    <p class="college">University of Missouri, Columbia, Missouri</p>
-    <p class="emphasis">Emphasis:  Online Education</p>
-    <ul>
-        <li>IS_LT 9471 Instructional Design, Spring 2018</li>
-        <li>IS_LT 7361 Intro to Digital Media, Summer 2018</li>
-        <li>IS_LT 9484 Teaching Online Courses, Fall 2018</li>
-        <li>IS_LT Designing Online Learning, Spring 2019</li>
-        <li>IS_LT 7383 Rapid Development Tools for Online Learning, Fall 2019</li>
-        <li>IS_LT 7374 Exploring Canvas, Fall 2019</li>
-        <li>IS_LT 7373 Exploring Moodle, Spring 2020</li>
-        <li>IS_LT 7310 Web Design and Development, Spring 2020</li>
-        <li>IS_LT 7310 Web Design and Development, Spring 2020</li>
-        <li>IS_LT 4367 Technology to Enhance Learning, Summer 2020</li>
-        <li>IS_LT 9440 Learning with Web-based Technologies, Fall 2020</li>
-        <li>IS_LT 9483 Capstone:  Online Education Emphasis Area, Fall 2020</li>    
-    </ul>
-<br>
-
+<br>   
+    
+    
+    
+    
+    
+<section id="educ">
  
-     <div id="accmed">
-        <p class="alignleft"><strong>Master of Education</strong></p>
-        <p class="alignright"><span style="color:black">2003</span></p>
-    </div>
-    <div style="clear: both;"></div>
-    
-    <p class="college">Westminster College, New Wilmington, Pennsylvania</p>
-    <p class="emphasis">Major:  Education Administration</p>
+<table class="table1">
+ <thead></thead>
+    <tbody> 
+         <tr>
+             <td class="diploma">Master of Science in Learning Technologies and Design</td>
+             <td class="grad">Anticipated completion December 2020</td>   
+         </tr>
+         <tr>
+             <td class="college">University of Missouri, Columbia, Missouri</td>
+             <td></td>  
+         </tr>
+         <tr>
+             <td class="major">Emphasis:  Online Education</td>
+             <td></td>
+         </tr> 
+        <tr>
+             <td class="course">IS_LT 9471 Instructional Design, Spring 2018</td>
+             <td></td>
+         </tr> 
+          <tr>
+             <td class="course">IS_LT 7361 Intro to Digital Media, Summer 2018</td>
+             <td></td>
+         </tr> 
+          <tr>
+             <td class="course">IS_LT 9484 Teaching Online Courses, Fall 2018</td>
+             <td></td>
+         </tr> 
+          <tr>
+             <td class="course">IS_LT 9485 Designing Online Learning, Spring 2019</td>
+             <td></td>
+         </tr>    
+         <tr>
+             <td class="course">IS_LT 7383 Rapid Development Tools for Online Learning, Fall 2019</td>
+             <td></td>
+         </tr> 
+          <tr>
+             <td class="course">IS_LT 7374 Exploring Canvas, Fall 2019</td>
+             <td></td>
+         </tr>    
+        <tr>
+             <td class="course">IS_LT 7373 Exploring Moodle, Spring 2020</td>
+             <td></td>
+         </tr> 
+          <tr>
+             <td class="course">IS_LT 7310 Web Design and Development, Spring 2020</td>
+             <td></td>
+         </tr> 
+          <tr>
+             <td class="course">IS_LT 4367 Technology to Enhance Learning, Summer 2020</td>
+             <td></td>
+         </tr> 
+          <tr>
+             <td class="course">IS_LT 9440 Learning with Web-based Technologies, Fall 2020</td>
+             <td></td>
+         </tr>    
+         <tr>
+             <td class="course">IS_LT 9483 Capstone:  Online Education Emphasis Area, Fall 2020 </td>
+             <td></td>
+         </tr> 
+    </tbody>
+    <tfoot></tfoot>
+ </table>   
 <br>
+<br>
+<br>        
 
-    <div>
-      <p class="alignleft"><strong>Bachelor of Science in Education</strong></p>
-       <p class="alignright"><span style="color:black">1995</span></p>
-    </div>
-    <div style="clear: both;"></div>
-    
-    <p class="college">Indiana University of Pennsylvania, Indiana, Pennsylvania</p>
-    <p class="emphasis"><strong>Magna Cum Laude graduate</strong></p> 
-    <p class="emphasis">Major:  Elementary Education</p>
+<table class="table1">  
+<thead></thead>
+    <tbody> 
+         <tr>
+             <td class="diploma">Master of Education</td>
+             <td class="grad">2003</td>   
+         </tr>
+         <tr>
+             <td class="college">Westminster College, New Wilmington, Pennsylvania</td>
+             <td></td>  
+         </tr>
+         <tr>
+             <td class="major">Major:  Education Administration</td>
+             <td></td>
+         </tr> 
+    </tbody>
+    <tfoot></tfoot>
+ </table>           
+<br>
+<br>
+<br>       
+<table class="table1">  
+<thead></thead>
+    <tbody> 
+         <tr>
+             <td class="diploma">Bachelor of Science in Education</td>
+             <td class="grad">1995</td>   
+         </tr>
+         <tr>
+             <td class="college">Indiana University of Pennsylvania, Indiana, Pennsylvania</td>
+             <td></td>  
+         </tr>
+         <tr>
+             <td><strong>Magna Cum Laude graduate</strong></td>
+             <td></td>
+         </tr> 
+         <tr>
+             <td class="major">Major:  Elementary Education</td>
+             <td></td>
+         </tr> 
+    </tbody>
+    <tfoot></tfoot>
+ </table>          
+
 </section>       
 <br>
 <br>       
 
 <section id="cert">
 <br>
-<br>
 <h3>Certifications</h3>
-    <div>
-      <p class="alignleft"><strong>Google Certified Educator Level 1</strong></p>
-        <p class="alignright"><span style="color:black">2020</span></p>
-    </div>
-    <div style="clear: both;"></div>
-<br>                              
-                                       
-     <div>
-      <p class="alignleft"><strong>Graduate Certificate in Online Education</strong></p>
-        <p class="alignright"><span style="color:black">2020</span></p>
-    </div>
-    <div style="clear: both;"></div>
-    
-    <p class="college">University of Missouri, Columbia, Missouri</p>
-    <p class="emphasis">Emphasis:  Online Education</p>
-    <ul>
-        <li>IS_LT 9471 Instructional Design, Spring 2018</li>
-        <li>IS_LT 7361 Intro to Digital Media, Summer 2018</li>
-        <li>IS_LT 9484 Teaching Online Courses, Fall 2018</li>
-        <li>IS_LT Designing Online Learning, Spring 2019</li>
-     </ul>
+    <table class="table1">
+   <thead></thead>
+    <tbody> 
+         <tr>
+             <td class="diploma">Google Certified Educator Level 1</td>
+             <td class="grad">2020</td>   
+         </tr>
+    </tbody>
+    <tfoot></tfoot>
+ </table> 
+<br>
+<br>
+<br>
+<table class="table1">
+   <thead></thead>
+    <tbody>       
+         <tr>
+             <td class="diploma">Graduate Certificate in Online Education</td>
+             <td class ="grad">2019</td>   
+         </tr>
+        <tr>
+             <td class="course">IS_LT 9471 Instructional Design, Spring 2018</td>
+             <td></td>
+         </tr> 
+          <tr>
+             <td class="course">IS_LT 7361 Intro to Digital Media, Summer 2018</td>
+             <td></td>
+         </tr> 
+          <tr>
+             <td class="course">IS_LT 9484 Teaching Online Courses, Fall 2018</td>
+             <td></td>
+         </tr> 
+          <tr>
+             <td class="course">IS_LT 9485 Designing Online Learning, Spring 2019</td>
+             <td></td>
+         </tr>    
+    </tbody>
+    <tfoot></tfoot>
+ </table> 
+     
 <br>
 <br>
 </section>   
