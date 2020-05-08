@@ -40,8 +40,8 @@ Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
     
     
     
-    .fields {width: 400px; height: 20px; font-family:"arial";}
-    #message {width: 400px;height: 75px; resize:vertical; font-family: "arial"}
+    .fields {font-family:"arial";}
+    #message {resize:vertical; font-family: "arial";}
     
     
     #button {background-color: cadetblue;
@@ -55,9 +55,6 @@ Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
         border:none;
         border-radius: 15px;
         cursor: pointer;}
-
- 
-
 </style>
 
 <link rel="stylesheet" href="styles.css">
@@ -96,25 +93,25 @@ Tested:  April 25, 2020; Passed on Firefox and Chrome browsers.
   
 <main>
     
- 
+<h3>Contact</h3>
    
 <div class="container">
     <form action= "mailto:mrd26w@mail.missouri.edu?Subject=Professional%20Website%20Contact" method="post" enctype="text/plain">
         
     <label for="fname">First Name</label>
-    <input type="text" class="fields" name="firstname" autofocus placeholder="First Name" required> 
+    <input type="text" class="fields" id="fname" autofocus placeholder="First Name" required> 
 <br>
 <br>
     <label for="lname">Last Name</label>
-    <input type="text" class="fields" name="lastname" placeholder="Last Name" required>
+    <input type="text" class="fields" id="lname" placeholder="Last Name" required>
 <br>
  <br>
     <label for="email">Last Name</label>
-    <input type="email" class="fields" name="email" placeholder="Email" required>
+    <input type="email" class="fields" id="email" placeholder="Email" required>
 <br>
 <br>  
    <label for="message">Message</label>
-   <textarea type="text" id="message" name="message" placeholder="Your Message" required></textarea>    
+   <textarea id="message" placeholder="Your Message" required></textarea>    
 <br>
 <br>   
     <input type="submit" id="button" value="Submit">
