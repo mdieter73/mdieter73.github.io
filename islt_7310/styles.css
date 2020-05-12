@@ -85,7 +85,6 @@ footer {font-size: 12pt;
 
 
 /* Animations */
-
     .footpic:hover {transform:scale(1.5,1.5);}
 
 
@@ -125,7 +124,6 @@ table.table1, td {border: none;}
 table.table1 tr:nth-child(odd) {background-color: transparent;}
 
 table.table1 {table-layout: fixed;}
-
 
 
 
@@ -288,8 +286,7 @@ a {text-decoration: none;}
     
     .course {font-size: 100%;}
     
-    
-
+ 
 /* Contact properties */
     .container {width:auto;}
     
